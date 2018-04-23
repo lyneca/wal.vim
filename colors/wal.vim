@@ -20,7 +20,7 @@ hi Normal ctermbg=NONE ctermfg=7
 hi NonText ctermbg=NONE ctermfg=0
 hi Comment ctermbg=NONE ctermfg=8
 hi Constant ctermbg=NONE ctermfg=11
-hi Error ctermbg=9 ctermfg=7
+hi Error ctermbg=9 ctermfg=0
 hi Identifier ctermbg=NONE ctermfg=9 cterm=BOLD
 hi Ignore ctermbg=8 ctermfg=0
 hi PreProc ctermbg=NONE ctermfg=11
@@ -31,13 +31,13 @@ hi Number ctermbg=NONE ctermfg=11
 hi Todo ctermbg=10 ctermfg=0
 hi Type ctermbg=NONE ctermfg=11
 hi Underlined ctermbg=NONE ctermfg=9 cterm=underline
-hi StatusLine ctermbg=7 ctermfg=0
+hi StatusLine ctermbg=0 ctermfg=2
 hi StatusLineNC ctermbg=NONE ctermfg=NONE
 hi TabLine ctermbg=NONE ctermfg=8
 hi TabLineFill ctermbg=NONE ctermfg=8
 hi TabLineSel ctermbg=12 ctermfg=0
 hi TermCursorNC ctermbg=11 ctermfg=0
-hi VertSplit ctermbg=NONE ctermfg=NONE
+hi VertSplit cterm=NONE ctermbg=0 ctermfg=2
 hi Title ctermbg=NONE ctermfg=12
 hi CursorLine ctermbg=8 ctermfg=0
 hi LineNr ctermbg=NONE ctermfg=8
@@ -52,7 +52,7 @@ hi PmenuSel ctermbg=12 ctermfg=0
 hi PmenuThumb ctermbg=8 ctermfg=8
 hi FoldColumn ctermbg=NONE ctermfg=7
 hi Folded ctermbg=NONE ctermfg=8
-hi WildMenu ctermbg=10 ctermfg=0
+hi WildMenu ctermbg=3 ctermfg=0
 hi SpecialKey ctermbg=NONE ctermfg=8
 hi DiffAdd ctermbg=NONE ctermfg=10
 hi DiffChange ctermbg=NONE ctermfg=8
